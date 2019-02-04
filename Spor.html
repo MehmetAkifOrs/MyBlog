@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:link {
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+
+        header {
+            background-color: #c7ebc9;
+            padding: 0px;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+            width: 100%;
+        }
+
+        .Baslık {
+
+            color: #285858;
+
+        }
+
+
+
+        section {
+            background-color: #c7ebc9;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #c7ebc9;
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+
+        footer {
+            background-color: #d1eeee;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+
+        @media (max-width: 600px) {
+            section {
+
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="blogPicture.jpg" alt="Konu Fotoğrafları">
+
+    <header>
+        <h2 class="Baslık">Spor</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+
+                <h3 class="Baslık">Konu Başlıkları</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/index.html">Anasayfa</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Tarih.html">Tarih</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Edebiyat.html">Edebiyat</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Spor.html">Spor</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Teknoloji.html">Teknoloji</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Muzik.html">Muzik</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Sanat.html">Sanat</a></li>
+
+            </ul>
+        </nav>
+
+        <article>
+            <h3 class="Baslık">Türklerin Olimpiyat Serüveni</h3>
+            <p>Biz Türklerin olimpiyat serüveninin başlangıcı Osmanlıya dayanır. 1908’de başlayan 2. Meşrutiyet ile
+                birlikte Osmanlı Olimpiyat Cemiyeti’de aynı tarihte kurulur ve o yıl Londra Olimpiyatları başlamadan
+                önce, Uluslararası Olimpiyat Komitesi Başkanı (IOC) Baron Pierre de Coubertin İstanbul’u ziyaret eder.
+                Kendisine, Galatasaray Lisesi öğrencisi Aleko Mulos tercümanlık yapar. Aleko aynı zamanda Tatavla
+                Heraklis Jimnastik Kulübü’nde (bugünkü Kurtuluş Kulübü) jimnastik dalında spor yapmaktadır. Coubertin,
+                Aleko’yu Londra Olimpiyatları’na davet eder. Böylece Aleko Mulos ilk olimpik sporcumuz olur ama
+                herhangi bir derece elde edemez.
+                Osmanlı 1912 Stokolm Olimpiyatları’na katılmak için gazete ilanıyla sporcu aramış. 35 sporcu başvuruda
+                bulunmuş. Ancak bütçe de para olmadığı için giderlerini kendilerinin karşılaması istenmiş. Bu durumda
+                iki sporcu gidebilmiş. Rahvan Papazyan ve Mıgır Mıgıryan. İkisi de güllecidir. Onlar da herhangi bir
+                derece alamamışlar.
+                1914 1. Dünya Savaşı nedeniyle yapılmıyor, 1920 Anvers Olimpiyatları’na ise Almanya birlikte savaş
+                suçlusu olduğu için Osmanlı alınmıyor. 1924 genç Türkiye Cumhuriyeti’nin ilk olimpiyatıdır. Paris’te
+                yapılan olimpiyatlara Büyük Öke Atatürk’ün özel ilgisi ve emriyle sporcu gönderilmiş. Spora ayrılan 50
+                bin liralık bütçenin 27 bin lirası olimpiyatlar için sporculara ayrılmış. 1924 Paris ve 1928 Amsterdam
+                Olimpiyatları’nda güreşçi Tayyar Yalaz 4.’lük derecesi edinmiştir.
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Çalışma amacıyla yapılmıştır. İçerikler bana ait değildir.</p>
+
+    </footer>
+
+</body>
+
+</html>

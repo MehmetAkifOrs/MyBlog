@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a:link {
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+
+        header {
+            background-color: #c7ebc9;
+            padding: 0px;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+            width: 100%;
+        }
+
+        .Baslık {
+
+            color: #285858;
+
+        }
+
+
+
+        section {
+            background-color: #c7ebc9;
+            display: -webkit-flex;
+            display: flex;
+        }
+
+
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #c7ebc9;
+            padding: 20px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+
+        footer {
+            background-color: #d1eeee;
+            padding: 10px;
+            text-align: center;
+            color: black;
+        }
+
+
+        @media (max-width: 600px) {
+            section {
+
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="blogPicture.jpg" alt="Konu Fotoğrafları">
+
+    <header>
+        <h2 class="Baslık">Teknoloji</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+
+                <h3 class="Baslık">Konu Başlıkları</h3>
+                <p></p>
+                <p></p>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/index.html">Anasayfa</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Tarih.html">Tarih</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Edebiyat.html">Edebiyat</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Spor.html">Spor</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Teknoloji.html">Teknoloji</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Muzik.html">Muzik</a></li>
+                <p></p>
+                <li><a href="file:///C:/Users/720695-Sabah/Documents/MyBlog/Sanat.html">Sanat</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1 class="Baslık">Teknoloji</h1>
+            <p>Verileri kuantum mekaniğine göre işleyen ve ileten bilgisayarlara kuantum bilgisayarı adı verilir.
+                Kuantum hesaplamalarını bilgisayarda kullanma fikri 80’li yılların sonunda Yuri Manin ve Richard
+                Feynman tarafından birbirinden bağımsız şekilde ortaya atıldı. O zamandan beri bir kuantum bilgisayarı
+                oluşturmak için muazzam çalışmalar yapıldı. Lakin yapılan bir sürü büyük araştırmaya rağmen günümüzde
+                kuantum bilgisayarı hala varsayımsal bir cihaz ve gelişimi kuantum teorisinin gelişimi ile doğru
+                orantılı.
+
+                Günümüze kadar çok karmaşık olmayan algoritmalalarla deneyler oluşturulmuştur. Şimdi biraz kuantum
+                bilgisayarı nedir açıklamaya çalışalım. Bir kuantum bilgisayar ile normal bir bilgisayarı ayıran en
+                önemli fark bilgi depolama şeklidir. Transistörler ve silikon yongalar kullanan klasik bilgisayarlarda,
+                bilgiyi işlemek için ikili kod kullanılır. Bitin iki temel durumu olduğunu biliyoruz – sıfır ve bir.
+                Bir bit sadece bu durumlardan birinde olabilir. Bir kuantum bilgisayar gelince, olay süperpozisyon
+                ilkesine dayanır ve bit yerine kubit olarak adlandırılan kuantum bitleri kullanılır.
+                Kubit’in normal bitler gibi iki temel durumu vardır: sıfır ve bir. Bununla birlikte, süperpozisyon
+                nedeniyle kubit bunları birleştirerek elde edilen değerleri alabilir ve aynı anda bütün bu hallerde
+                olabilir. Bu, kuantum hesaplamalarındaki paralellikten kaynaklanır yani sistemin tüm durumlarını
+                değiştirmeye ihtiyacı yoktur. Buna ek olarak, sistemin tam durumunu tanımlamak için bir kuantum
+                bilgisayarının büyük bilgisayar gücüne ve RAM’e ihtiyacı yoktur çünkü 100 parçacık sistemini hesaplamak
+                için trilyon trilyon bit yerine 100 kubit yeterlidir.
+                Kuantum bilgisayarın çalışma prensibi, 1995’de İngiliz teorik fizikçi David Deutsch tarafından
+                önerildi; David Deutsch, kuantum düzeyinde herhangi bir hesaplama yapabilen bir zincir oluşturdu.
+                Oluşturduğu şemaya göre önce bir kubit topluluğu alınır ve ilk parametreler kaydedilir. Ardından
+                gerekli dönüşümler mantıksal işlemler kullanılarak gerçekleştirilir ve bilgisayar çıktısının sonucu
+                olan değerler yazılır. Kubitler iletim görevinde yer alırlar, mantıksal bloklar ise dönüşümleri
+                gerçekleştirirler.Bilim adamlarına göre, kuantum bilgisayarlar mevcut bilgisayarlardan milyonlarca kat
+                daha güçlü olacak. Şu an için, bir kuantum bilgisayarın çalışması için en temel algoritmalar
+                tanımlanmış ve hatta özel programlama dilleri geliştirilmektedir. Cisco Systems araştırmacılarının
+                tahminlerine göre, tam teşekküllü çalışan bir kuantum bilgisayar, önümüzdeki on yılın ortalarında
+                karşımıza çıkacak. Bu alandaki lider ülke ise Japonya. Araştırmaların tamamının% 70’inden fazlası bu
+                ülkede yapılmakta.
+
+
+            </p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Çalışma amacıyla yapılmıştır. İçerikler bana ait değildir.</p>
+
+    </footer>
+
+</body>
+
+</html>
